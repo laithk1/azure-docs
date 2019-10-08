@@ -254,7 +254,7 @@ To allow secure web traffic to reach your VM, open port 443 from the Internet wi
 ```azurecli-interactive
 az vm open-port \
     --resource-group myResourceGroupAutomate \
-    --name myVMSecured \
+    --name myVMWithCerts \
     --port 443
 ```
 
